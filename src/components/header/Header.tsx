@@ -12,7 +12,7 @@ export default function Header() {
           <li><Link href={`/`}>Sobre</Link></li>
           <li><Link href={`/`}>Contatos</Link></li>
         </ul>
-        <button> <i className="fa-regular fa-paper-plane"></i> Fale conosco</button>
+        <button> <i className="fa-regular fa-paper-plane"></i> <p>Fale conosco</p></button>
       </nav>
 
       <div className="main-header">
