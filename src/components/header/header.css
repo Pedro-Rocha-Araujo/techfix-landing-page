@@ -5,11 +5,11 @@ header {
   display: grid;
   grid-template-columns: 1fr 90% 1fr;
   grid-template-rows: auto 1fr;
-  padding: 1rem 0;
+  padding: 1.5rem 0 0 0;
 }
 
 header nav {
-  background-color: green;
+  /* background-color: green; */
   margin: auto;
   width: 100%;
   max-width: 1330px;
@@ -35,17 +35,64 @@ header nav button {
 }
 
 header div.main-header {
-  background-color: palevioletred;
+  /* background-color: palevioletred; */
   grid-column: 2/3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin: 0 auto;
   width: 100%;
   max-width: 1330px;
 }
 
 header div.texto-header {
-  background-color: bisque;
+  /* background-color: bisque; */
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 0.6rem;
+}
+
+div.texto-header span {
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+div.texto-header p {
+  line-height: 1.4rem;
 }
 
 header div.imagem-header {
-  background-color: brown;
+  /* background-color: brown; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  width: 100%;
+}
+
+div.botoes {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  gap: 2%;
+}
+
+div.botoes button {
+  padding: 0.6rem 1.2rem;
+  border-radius: 2rem;
+}
+
+button.cheio {
+  background-color: #f4f4f4;
+}
+
+button.vazado {
+  background-color: transparent;
+  color: #f4f4f4;
+  border: 1px solid #f4f4f4;
 }

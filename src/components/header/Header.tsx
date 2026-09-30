@@ -18,13 +18,20 @@ export default function Header() {
       <div className="main-header">
 
         <div className="texto-header">
-          <span></span>
-          <h2></h2>
-          <p></p>
+          <span>Tecnologia aplicada ao seu negócio</span>
+          <h2>Soluções tecnológicas para o seu dia a dia.</h2>
+          <p>A TechFix é uma startup de tecnologia que oferece desenvolvimento de sistemas, suporte técnico,  design, UX/UI, testes de software e muito mais. Tudo para você e/ou sua empresa evoluam.</p>
+    
+          <div className="botoes">
+            <button className="cheio">Faça um orçamento</button>
+            <button className="vazado">Conheça nossos serviços</button>
+          </div>
         </div>
 
         <div className="imagem-header">
           <img 
+            src={`./header-image.png`}
+            alt="Imagem de um computador e um celular que representam as principais ferramentas da empresa."
           />
         </div>
 
