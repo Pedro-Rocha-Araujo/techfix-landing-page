@@ -1,0 +1,51 @@
+header {
+  color: #fff;
+  background-color: #1C1C1C;
+  min-height: 70dvh;
+  display: grid;
+  grid-template-columns: 1fr 90% 1fr;
+  grid-template-rows: auto 1fr;
+  padding: 1rem 0;
+}
+
+header nav {
+  background-color: green;
+  margin: auto;
+  width: 100%;
+  max-width: 1330px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-column: 2/3;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+header a {
+  color: #fff;
+}
+
+header nav button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+}
+
+header div.main-header {
+  background-color: palevioletred;
+  grid-column: 2/3;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1330px;
+}
+
+header div.texto-header {
+  background-color: bisque;
+}
+
+header div.imagem-header {
+  background-color: brown;
+}
