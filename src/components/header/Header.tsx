@@ -12,7 +12,7 @@ export default function Header() {
           <li><Link href={`/`}>Sobre</Link></li>
           <li><Link href={`/`}>Contatos</Link></li>
         </ul>
-        <button>Fale conosco</button>
+        <button> <i className="fa-regular fa-paper-plane"></i> Fale conosco</button>
       </nav>
 
       <div className="main-header">
@@ -23,7 +23,7 @@ export default function Header() {
           <p>A TechFix é uma startup de tecnologia que oferece desenvolvimento de sistemas, suporte técnico,  design, UX/UI, testes de software e muito mais. Tudo para você e/ou sua empresa evoluam.</p>
     
           <div className="botoes">
-            <button className="cheio">Faça um orçamento</button>
+            <button className="cheio">Faça um orçamento <i className="fa-solid fa-arrow-right"></i></button>
             <button className="vazado">Conheça nossos serviços</button>
           </div>
         </div>
