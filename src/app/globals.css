@@ -18,15 +18,19 @@ a {
 }
 
 h1 {
-  font-size: clamp(1.8rem, 4vw ,2.5rem);
+  font-size: clamp(1.8rem, 8vw ,2.5rem);
 }
 
 h2 {
-  font-size: clamp(1.2rem, 4vw ,2.2rem);
+  font-size: clamp(1.2rem, 8vw ,2.2rem);
 }
 
-span, p, a {
+p, a {
   font-size: clamp(0.9rem, 2vw ,1.05rem);
+}
+
+span {
+  font-size: clamp(0.8rem, 2vw ,1.05rem);
 }
 
 
