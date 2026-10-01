@@ -10,7 +10,7 @@ export default function Servicos() {
         <div className="texto">
           <span>Nossos serviços</span>
           <h2>O que a TechFix faz?</h2>
-          <p>Oferecemos soluções completas relacionadas a tecnologia, deste o resenvolvimento até o suporte, sempre priorizando a qualidade e agilidade para atender melhor aos seus requisitos.</p>
+          <p>Nós oferecemos soluções completas relacionadas a tecnologia, deste o desenvolvimento até o suporte, sempre priorizando a qualidade e agilidade na entrega para atender melhor aos seus requisitos.</p>
         </div>
 
         <div className="cards">

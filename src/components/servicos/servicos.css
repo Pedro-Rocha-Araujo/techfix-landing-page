@@ -48,6 +48,7 @@ div.card {
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
+  box-shadow: -2px 2px 1px #1c1c1c4f;
 }
 
 div.card i {
@@ -69,5 +70,18 @@ div.card i {
   section.servicos div.texto p {
    max-width: none;
    margin: auto;
+  }
+  div.card {
+    align-items: center;
+    text-align: center;
+  }
+  div.cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  div.cards {
+    grid-template-columns: 1fr;
   }
 }
