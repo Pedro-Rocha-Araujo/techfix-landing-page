@@ -2,7 +2,7 @@ section.servicos {
   color: #1C1C1C;
   background-color: #f4f4f4;
   display: grid;
-  grid-template-columns: 1fr 90% 1fr;
+  grid-template-columns: 1fr 95% 1fr;
   padding: 2rem 0;
 }
 
@@ -67,16 +67,24 @@ div.card i {
     text-align: center;
     width: 100%;    
   }
+  section.servicos span {
+    display: none;
+  }
   section.servicos div.texto p {
    max-width: none;
    margin: auto;
   }
+  div.cards {
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    height: 15rem;
+  }
   div.card {
     align-items: center;
     text-align: center;
-  }
-  div.cards {
-    grid-template-columns: 1fr 1fr;
+    box-shadow: none;
   }
 }
 
