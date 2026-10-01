@@ -79,7 +79,10 @@ div.card i {
     position: relative;
     overflow: auto;
     scroll-snap-type: x mandatory;
-    height: 15rem;
+    height: 14rem;
+  }
+  div.cards::-webkit-scrollbar {
+    display: none;
   }
   div.card {
     align-items: center;
