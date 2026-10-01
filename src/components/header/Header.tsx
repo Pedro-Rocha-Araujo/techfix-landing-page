@@ -21,7 +21,7 @@ export default function Header() {
           <span>Tecnologia aplicada ao seu negócio</span>
           <h2>Soluções tecnológicas para o seu dia a dia.</h2>
           <p>A TechFix é uma startup de tecnologia que oferece desenvolvimento de sistemas, suporte técnico,  design, UX/UI, testes de software e muito mais. Tudo para você e/ou sua empresa evoluam.</p>
-    
+     
           <div className="botoes">
             <button className="cheio">Faça um orçamento <i className="fa-solid fa-arrow-right"></i></button>
             <button className="vazado">Conheça nossos serviços</button>

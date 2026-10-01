@@ -1,0 +1,73 @@
+section.servicos {
+  color: #1C1C1C;
+  background-color: #f4f4f4;
+  display: grid;
+  grid-template-columns: 1fr 90% 1fr;
+  padding: 2rem 0;
+}
+
+section.servicos div.conteudo {
+  grid-column: 2/3;
+  margin: auto;
+  width: 100%;
+  max-width: 1330px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+section.servicos span {
+  text-transform: uppercase;
+}
+
+section.servicos div.texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 0.2rem;
+}
+
+section.servicos div.texto p {
+  width: 90%;
+  max-width: 480px;
+  letter-spacing: 1px;
+}
+
+div.cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+}
+
+div.card {
+  width: 100%;
+  background-color: #fff;
+  padding: 1.4rem 0.6rem 0.6rem 0.6rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+div.card i {
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 980px) {
+  section.servicos div.conteudo {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  section.servicos div.texto {
+    margin: auto;
+  }
+  section.servicos p, section.servicos h2, section.servicos span {
+    text-align: center;
+    width: 100%;    
+  }
+  section.servicos div.texto p {
+   max-width: none;
+   margin: auto;
+  }
+}

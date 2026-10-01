@@ -10,7 +10,7 @@
 button {
   border: none;
   cursor: pointer;
-  font-size: clamp(0.8rem, 2vw ,1.05rem);
+  font-size: clamp(0.85rem, 1vw ,1.05rem);
 }
 
 a {
@@ -22,15 +22,19 @@ h1 {
 }
 
 h2 {
-  font-size: clamp(1.2rem, 8vw ,2.2rem);
+  font-size: clamp(1.2rem, 4vw ,2.2rem);
+}
+
+h3 {
+  font-size: clamp(0.85rem, 4vw, 1rem);
 }
 
 p, a {
-  font-size: clamp(0.9rem, 2vw ,1.05rem);
+  font-size: clamp(0.85rem, 1.1vw ,1.05rem);
 }
 
 span {
-  font-size: clamp(0.8rem, 2vw ,1.05rem);
+  font-size: clamp(0.8rem, 1.1vw ,1rem);
 }
 
 

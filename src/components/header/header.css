@@ -48,9 +48,8 @@ div.main-header {
 }
 
 div.texto-header {
-  /* background-color: bisque; */
   width: 100%;
-  max-width: 480px;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,10 +60,12 @@ div.texto-header {
 div.texto-header span {
   text-transform: uppercase;
   margin-bottom: 0.5rem;
+  word-spacing: 3px;
 }
 
 div.texto-header p {
-  line-height: 1.4rem;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
 }
 
 div.imagem-header {
@@ -110,7 +111,7 @@ button.vazado {
     background-repeat: no-repeat;
     background-size: contain;
     object-fit: cover;
-    min-height: 55dvh;
+    min-height: 65dvh;
   }
   header nav ul {
     display: none;
@@ -122,8 +123,8 @@ button.vazado {
     display: none;
   }
   div.texto-header {
+    max-width: 1000px;
     margin: 0 auto;
-    max-width: 700px;
   }
   div.botoes {
     margin: 0.5rem 0;
@@ -131,6 +132,12 @@ button.vazado {
 }
 
 @media screen and (max-width: 480px) {
+  header {
+    min-height: 55dvh;
+  }
+  div.texto-header p {
+    text-align: justify;
+  }
   div.botoes {
     flex-direction: column;
     gap: 1rem;
