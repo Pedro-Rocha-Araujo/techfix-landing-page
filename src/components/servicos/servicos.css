@@ -74,7 +74,7 @@ div.card i {
    max-width: none;
    margin: auto;
   }
-  div.cards {
+  section.servicos div.cards {
     grid-template-columns: 1fr 1fr;
     position: relative;
     overflow: auto;
@@ -92,7 +92,7 @@ div.card i {
 }
 
 @media screen and (max-width: 480px) {
-  div.cards {
+  section.servicos div.cards {
     grid-template-columns: 1fr;
   }
 }
