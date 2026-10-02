@@ -39,9 +39,9 @@ section.sobre div.imagem img {
 
 section.sobre div.cards {
   display: flex;
-  gap: 0.4rem;
+  gap: 1.5rem;
   margin-top: 1.5rem; 
-  justify-content: space-between;
+  align-items: center;
   max-width: 520px;
 }
 
@@ -51,9 +51,15 @@ section.sobre div.card {
   gap: 0.5rem;
 }
 
+section.sobre div.cards hr {
+  height: 40px;
+  margin: 0;
+  border: 1px solid #7e7e7e;
+}
+
 section.sobre div.card span {
+  width: 100%;
   text-align: left;
-  background-color: red;
 }
 
 @media screen and (max-width: 980px) {
