@@ -76,10 +76,11 @@ div.card i {
   }
   section.servicos div.cards {
     grid-template-columns: 1fr 1fr;
+    padding: 1rem 0;
     position: relative;
     overflow: auto;
     scroll-snap-type: x mandatory;
-    height: 14rem;
+    height: 7rem;
   }
   div.cards::-webkit-scrollbar {
     display: none;

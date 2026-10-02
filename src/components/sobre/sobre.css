@@ -92,11 +92,23 @@ section.sobre div.card span {
 @media screen and (max-width: 480px) {
 
   section.sobre div.cards {
+    gap: 2rem;
+    padding: 1rem 0;
+    height: 3rem;
+    position: relative;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
     flex-direction: column;
     align-items: center;
   }
+  section.sobre div.card i {
+    position: relative;
+    top: 8px;
+  }
   section.sobre div.card {
     width: 100%;
-    align-items: center;
+  }
+  section.sobre div.cards hr {
+    display: none;
   }
 }
