@@ -1,0 +1,70 @@
+section.sobre {
+  color: #1C1C1C;
+  background-color: #e6e6e6;
+  display: grid;
+  grid-template-columns: 1fr 95% 1fr;
+  padding: 2rem 0;
+}
+
+section.sobre div.conteudo {
+  grid-column: 2/3;
+  margin: auto;
+  width: 100%;
+  max-width: 1330px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+section.sobre div.texto {
+  max-width: 620px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+section.sobre div.texto span {
+  text-transform: uppercase;
+}
+
+section.sobre p {
+  line-height: 140%;
+  letter-spacing: 1%;
+}
+
+section.sobre div.imagem img {
+  aspect-ratio: 16/9;
+  width: 80%;
+  border-radius: 1rem;
+}
+
+section.sobre div.cards {
+  display: flex;
+  gap: 0.4rem;
+  margin-top: 1.5rem;
+  justify-content: space-between;
+  max-width: 480px;
+}
+
+section.sobre div.card {
+  max-width: 200px;
+  display: flex;
+  align-items: end;
+  gap: 0.5rem;
+  background-color: red;
+}
+
+section.sobre div.card span {
+  background-color: blue;
+}
+
+@media screen and (max-width: 980px) {
+  section.sobre div.imagem img {
+    display: none;
+  }
+  section.sobre div.conteudo {
+    grid-template-columns: 1fr;
+  }
+  section.sobre div.cards {
+    margin: auto;
+  }
+}

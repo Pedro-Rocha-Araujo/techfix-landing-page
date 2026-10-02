@@ -33,14 +33,14 @@ section.servicos div.texto p {
   letter-spacing: 1px;
 }
 
-div.cards {
+section.servicos div.cards {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 0.5rem;
 }
 
-div.card {
+section.servicos div.card {
   width: 100%;
   background-color: #fff;
   padding: 1.4rem 0.6rem 0.6rem 0.6rem;
