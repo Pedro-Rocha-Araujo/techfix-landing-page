@@ -10,7 +10,7 @@
 button {
   border: none;
   cursor: pointer;
-  font-size: clamp(0.85rem, 1vw ,1.05rem);
+  font-size: clamp(0.9rem, 1.5vw ,1.05rem);
 }
 
 a {
@@ -52,4 +52,10 @@ span.claro {
 
 ul, ol {
   list-style: none;
+}
+
+@media screen and (max-width: 480px) {
+  span.chamada {
+    display: none;
+  }
 }

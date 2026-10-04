@@ -1,0 +1,107 @@
+section.porque {
+  background: linear-gradient(45deg, #020B14 30%, #061522  90%);
+  display: grid;
+  grid-template-columns: 1fr 95% 1fr;
+  padding: 2.5rem 0;
+  border-bottom: 1px solid #00D9FF;
+}
+
+section.porque div.conteudo {
+  grid-column: 2/3;
+  margin: auto;
+  width: 100%;
+  max-width: 1330px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+section.porque div.texto {
+  color: #fff;
+  max-width: 620px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+section.porque button {
+  background-color: #00d9ff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 2rem;
+  margin-top: 0.5rem;
+}
+
+section.porque div.cards {
+  color: #fff;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  max-width: 620px;
+}
+
+section.porque div.card {
+  display: flex;
+  align-items: start;
+  gap: 0.5rem;
+}
+
+div.card div.card-icon {
+  position: relative;
+  top: 10px;
+}
+
+section.porque div.card h3{
+  margin-bottom: 0.2rem;
+}
+
+@media screen and (max-width: 1280px) {
+  section.porque div.cards {
+    grid-template-columns: 1fr;
+    position: relative;
+    overflow: auto;
+    height: 8rem;
+    padding: 1rem 0;
+  } 
+
+}
+
+@media screen and (max-width: 980px) {
+  section.porque div.conteudo {
+    grid-template-columns: 1fr;
+  }
+  section.porque div.texto {
+    margin: auto;
+    gap: 0.5rem;
+    align-items: start;
+  }
+  section.porque div.cards {
+    margin-top: 0.5rem;
+    position: relative;
+    overflow: auto;
+    height: 6rem;
+    padding: 2rem 0;
+  }
+
+  div.card div.card-texto {
+    margin-left: 0.4rem;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  section.porque div.texto {
+    align-items: start;
+    text-align: left;
+  }
+  section.porque button {
+    width: 100%;
+  }
+  section.porque div.cards {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+}

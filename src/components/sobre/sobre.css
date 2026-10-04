@@ -2,7 +2,8 @@ section.sobre {
   background: linear-gradient(45deg, #061522 30%, #0D2435  90%);
   display: grid;
   grid-template-columns: 1fr 95% 1fr;
-  padding: 2rem 0;
+  padding: 2.5rem 0;
+  border-bottom: 1px solid #00D9FF;
 }
 
 section.sobre div.conteudo {
@@ -73,9 +74,6 @@ section.sobre div.card span {
   }
   section.sobre div.cards {
     margin: auto;
-  }
-  section.sobre div.texto span {
-    display: none;
   }
   section.sobre h2, section.sobre p {
     text-align: center;

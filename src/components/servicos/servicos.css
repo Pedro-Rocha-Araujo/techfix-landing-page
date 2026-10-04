@@ -2,7 +2,7 @@ section.servicos {
   background: linear-gradient(45deg, #020B14 30%, #061522  90%);
   display: grid;
   grid-template-columns: 1fr 95% 1fr;
-  padding: 2rem 0;
+  padding: 2.5rem 0;
   border-bottom: 1px solid #00D9FF;
 }
 
@@ -66,9 +66,6 @@ div.card i {
   section.servicos p, section.servicos h2, section.servicos span {
     text-align: center;
     width: 100%;    
-  }
-  section.servicos span {
-    display: none;
   }
   section.servicos div.texto p {
    max-width: none;
