@@ -12,6 +12,7 @@ section.sobre div.conteudo {
   width: 100%;
   max-width: 1330px;
   display: grid;
+  align-items: center;
   grid-template-columns: 2fr 2fr;
 }
 
@@ -56,39 +57,50 @@ section.sobre div.card span {
   color: #fff;
 }
 
+@media screen and (max-width: 1280px) {
+  section.sobre div.cards {
+    gap: 1rem;
+  }
+}
+
 @media screen and (max-width: 980px) {
+  section.sobre {
+    background: 
+      linear-gradient(45deg, #061522ec 30%, #0D2435ec  90%), 
+      url("../../../public/section-image.jpg")
+    ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   section.sobre div.imagem img {
     display: none;
   }
   section.sobre div.conteudo {
     grid-template-columns: 1fr;
   }
+  section.sobre div.infos {
+    max-width: 620px;
+    margin: auto;
+  }
   section.sobre div.texto {
     gap: 0.5rem;
   }
-  section.sobre div.infos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
+}
+
+@media screen and (max-width: 768px) {
   section.sobre div.cards {
-    margin: auto;
-  }
-  section.sobre h2, section.sobre p {
-    text-align: center;
+    gap: 0.5rem;
   }
 }
 
 @media screen and (max-width: 480px) {
-
   section.sobre div.cards {
     gap: 2rem;
     padding: 1rem 0;
     height: 3rem;
     position: relative;
     overflow: auto;
-    scroll-snap-type: x mandatory;
     flex-direction: column;
     align-items: center;
   }
