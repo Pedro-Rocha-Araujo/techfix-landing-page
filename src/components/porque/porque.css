@@ -109,5 +109,7 @@ section.porque div.card p{
 }
 
 @media screen and (max-width: 480px) {
-
+  section.porque button {
+    padding: 0.6rem;
+  }
 }

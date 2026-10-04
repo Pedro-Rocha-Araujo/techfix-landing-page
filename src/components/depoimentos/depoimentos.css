@@ -70,3 +70,9 @@ section.depoimentos div.card p {
     height: 6rem;
   }
 }
+
+@media screen and (max-width: 480px) {
+  section.depoimentos div.cards {
+    height: 7.5rem;
+  }
+}
