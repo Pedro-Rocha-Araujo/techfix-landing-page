@@ -9,7 +9,7 @@ export default function Sobre() {
 
         <div className="imagem">
           <img 
-            src={`./section-image.png`}
+            src={`./section-image.jpg`}
             alt="Imagem de um computador e um celular"
           />
         </div>
@@ -17,7 +17,7 @@ export default function Sobre() {
         <div className="infos">
 
           <div className="texto">
-            <span>Sobre nós</span>
+            <span className="claro chamada">Sobre nós</span>
             <h2>Tecnologia, criatividade e compromisso.</h2>
             <p>Somos uma startup apaixonada por resolver problemas através da tecnologia. Acreditamos no poder da inovação, e no desenvolvimento voltado ás necessidades de cada negócio.</p>
           </div>

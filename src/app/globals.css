@@ -33,8 +33,15 @@ p, a {
   font-size: clamp(0.85rem, 1.1vw ,1.05rem);
 }
 
-span {
+span.chamada {
+  text-transform: uppercase;
   font-size: clamp(0.8rem, 1vw ,1rem);
+  margin-bottom: 0.5rem;
+  word-spacing: 3px;
+}
+
+span.claro {
+  color: #00d9ff;
 }
 
 

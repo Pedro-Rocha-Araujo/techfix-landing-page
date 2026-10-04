@@ -1,6 +1,5 @@
 section.sobre {
-  color: #1C1C1C;
-  background-color: #e6e6e6;
+  background: linear-gradient(45deg, #061522 30%, #0D2435  90%);
   display: grid;
   grid-template-columns: 1fr 95% 1fr;
   padding: 2rem 0;
@@ -16,14 +15,11 @@ section.sobre div.conteudo {
 }
 
 section.sobre div.texto {
+  color: #fff;
   max-width: 620px;
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
-}
-
-section.sobre div.texto span {
-  text-transform: uppercase;
 }
 
 section.sobre p {
@@ -34,6 +30,7 @@ section.sobre p {
 section.sobre div.imagem img {
   aspect-ratio: 16/9;
   width: 80%;
+  object-fit: cover;
   border-radius: 1rem;
 }
 
@@ -54,12 +51,13 @@ section.sobre div.card {
 section.sobre div.cards hr {
   height: 40px;
   margin: 0;
-  border: 1px solid #7e7e7e;
+  border: 1px solid #006B99;
 }
 
 section.sobre div.card span {
   width: 100%;
   text-align: left;
+  color: #fff;
 }
 
 @media screen and (max-width: 980px) {

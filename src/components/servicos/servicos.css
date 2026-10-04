@@ -1,9 +1,9 @@
 section.servicos {
-  color: #1C1C1C;
-  background-color: #f4f4f4;
+  background: linear-gradient(45deg, #020B14 30%, #061522  90%);
   display: grid;
   grid-template-columns: 1fr 95% 1fr;
   padding: 2rem 0;
+  border-bottom: 1px solid #00D9FF;
 }
 
 section.servicos div.conteudo {
@@ -15,11 +15,8 @@ section.servicos div.conteudo {
   grid-template-columns: 2fr 3fr;
 }
 
-section.servicos span {
-  text-transform: uppercase;
-}
-
 section.servicos div.texto {
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,16 +39,18 @@ section.servicos div.cards {
 
 section.servicos div.card {
   width: 100%;
-  background-color: #fff;
+  color: #fff;
+  border: 1px solid #00D9FF;
+  background-color: #0D2435;
   padding: 1.4rem 0.6rem 0.6rem 0.6rem;
   border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
-  box-shadow: -2px 2px 1px #1c1c1c4f;
 }
 
 div.card i {
+  color: #00D9FF;
   margin-bottom: 1rem;
 }
 
