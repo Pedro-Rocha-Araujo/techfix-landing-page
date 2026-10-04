@@ -1,0 +1,36 @@
+section.depoimentos {
+  background: linear-gradient(45deg, #061522 30%, #0D2435  90%);
+  padding: 2.5rem 0;
+  border-bottom: 1px solid #00D9FF;
+}
+
+section.depoimentos div.conteudo {
+  grid-column: 2/3;
+  width: 100%;
+  max-width: 1330px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+section.depoimentos div.conteudo div.texto {
+  color: #fff;
+}
+
+section.depoimentos div.cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+}
+
+section.depoimentos div.card {
+  width: 100%;
+  border: 2px solid #00D9FF;
+}
+
+section.depoimentos div.card img {
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid #00D9FF;
+}

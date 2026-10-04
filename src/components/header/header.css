@@ -29,6 +29,11 @@ header a {
   color: #fff;
 }
 
+header a:hover {
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid #00d9ff;
+}
+
 header nav button {
   background-color: #00d9ff;
   padding: 0.6rem 1.5rem;
