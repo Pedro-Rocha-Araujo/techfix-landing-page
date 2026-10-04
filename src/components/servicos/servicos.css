@@ -41,7 +41,8 @@ section.servicos div.card {
   width: 100%;
   color: #fff;
   border: 1px solid #00D9FF;
-  background-color: #0D2435;
+  background-color: #0d243541;
+  backdrop-filter: blur(10rem);
   padding: 1.4rem 0.6rem 0.6rem 0.6rem;
   border-radius: 0.5rem;
   display: flex;
