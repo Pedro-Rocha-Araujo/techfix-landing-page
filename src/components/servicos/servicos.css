@@ -12,7 +12,8 @@ section.servicos div.conteudo {
   width: 100%;
   max-width: 1330px;
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
 }
 
 section.servicos div.texto {
@@ -22,26 +23,21 @@ section.servicos div.texto {
   justify-content: center;
   align-items: start;
   gap: 0.2rem;
-}
-
-section.servicos div.texto p {
-  width: 90%;
-  max-width: 480px;
-  letter-spacing: 1px;
+  max-width: 620px;
 }
 
 section.servicos div.cards {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 0.5rem;
 }
 
 section.servicos div.card {
-  width: 100%;
   color: #fff;
   border: 1px solid #00D9FF;
   background-color: #0d243541;
+  width: 100%;
   backdrop-filter: blur(10rem);
   padding: 1.4rem 0.6rem 0.6rem 0.6rem;
   border-radius: 0.5rem;
@@ -50,47 +46,63 @@ section.servicos div.card {
   gap: 0.2rem;
 }
 
+section.servicos div.card p {
+  font-weight: 200
+}
+
 div.card i {
   color: #00D9FF;
   margin-bottom: 1rem;
 }
 
+@media screen and (max-width: 1280px) {
+  section.servicos div.cards {
+    grid-template-columns: 1fr;
+    position: relative;
+    overflow: auto;
+    height: 13rem;
+  }
+}
+
 @media screen and (max-width: 980px) {
   section.servicos div.conteudo {
+    max-width: 620px;
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    gap: 1rem;
   }
   section.servicos div.texto {
     margin: auto;
+    gap: 0.5rem;
   }
   section.servicos p, section.servicos h2, section.servicos span {
-    text-align: center;
+    text-align: left;
     width: 100%;    
   }
   section.servicos div.texto p {
-   max-width: none;
-   margin: auto;
+    max-width: none;
   }
   section.servicos div.cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     padding: 1rem 0;
     position: relative;
     overflow: auto;
-    scroll-snap-type: x mandatory;
     height: 7rem;
   }
-  div.cards::-webkit-scrollbar {
-    display: none;
-  }
-  div.card {
+  section.servicos div.card {
     align-items: center;
-    text-align: center;
     box-shadow: none;
   }
+  section.servicos div.card p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
 }
 
 @media screen and (max-width: 480px) {
   section.servicos div.cards {
     grid-template-columns: 1fr;
+    height: 8rem;
   }
 }

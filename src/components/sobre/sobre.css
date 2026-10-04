@@ -33,7 +33,7 @@ section.sobre div.imagem img {
 
 section.sobre div.cards {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
   margin-top: 1.5rem; 
   align-items: center;
   max-width: 520px;
@@ -43,6 +43,10 @@ section.sobre div.card {
   display: flex;
   align-items: end;
   gap: 0.5rem;
+}
+
+section.sobre div.cards span {
+  font-weight: 200;
 }
 
 section.sobre div.cards hr {
@@ -59,7 +63,7 @@ section.sobre div.card span {
 
 @media screen and (max-width: 1280px) {
   section.sobre div.cards {
-    gap: 1rem;
+    gap: 0.5rem;
   }
 }
 

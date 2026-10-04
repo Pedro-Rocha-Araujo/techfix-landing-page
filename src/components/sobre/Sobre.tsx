@@ -25,17 +25,17 @@ export default function Sobre() {
           <div className="cards">
 
             <CardSobre 
-              icone="fa-regular fa-clock fa-2xl"
+              icone="fa-regular fa-clock fa-xl"
               descricao="Agilidade na entrega"
             />
             <hr />
             <CardSobre 
-              icone="fa-solid fa-user-group fa-2xl"
+              icone="fa-solid fa-user-group fa-xl"
               descricao="Atendimento personalizado"
             />
             <hr />
             <CardSobre 
-              icone="fa-solid fa-circle-check fa-2xl"
+              icone="fa-solid fa-circle-check fa-xl"
               descricao="Qualidade e segurança"
             />
 
