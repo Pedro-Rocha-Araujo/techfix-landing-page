@@ -14,8 +14,18 @@ export default function Depoimentos() {
         <div className="cards">
           <CardDepoimentos
             imagem={`/foto-usuario.jpg`}
-            titulo=""
-            descricao="" 
+            titulo="Emily Rocha"
+            descricao="“Gostei muito do serviço! A equipe é muito atensiosa e resolveram meu problema bem rápido.”" 
+          />
+          <CardDepoimentos
+            imagem={`/foto-usuario.jpg`}
+            titulo="Amanda Silva"
+            descricao="“Atendimento nota 10! Gostei muito da velocidade e da qualidade da montagem.”" 
+          />
+          <CardDepoimentos
+            imagem={`/foto-usuario.jpg`}
+            titulo="André Matos"
+            descricao="“Estrega muito além da minha expectativa. Recomendo muito!”" 
           />
         </div>
       </div>
