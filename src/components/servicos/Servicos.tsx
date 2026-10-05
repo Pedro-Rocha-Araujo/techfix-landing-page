@@ -3,7 +3,7 @@ import CardServico from "./CardServico"
 
 export default function Servicos() {
   return (
-    <section className="servicos">
+    <section id="servicos" className="servicos">
 
       <div className="conteudo">
 

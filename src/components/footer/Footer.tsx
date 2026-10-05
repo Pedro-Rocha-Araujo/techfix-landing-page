@@ -4,7 +4,7 @@ import Nav from "./Nav"
 
 export default function Footer() {
   return (
-    <footer>
+    <footer id="contatos">
       <div className="conteudo">
 
         <div className="main-footer">

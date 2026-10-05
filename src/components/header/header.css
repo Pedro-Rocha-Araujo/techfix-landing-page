@@ -31,14 +31,14 @@ header nav ul {
   gap: 1.5rem;
 }
 
-header a {
+header nav a {
   color: #fff;
   position: relative;
   padding-bottom: 0.5rem;
 }
 
 
-header a::after {
+header nav a::after {
   content: " ";
   width: 0%;
   height: 1px;
@@ -98,12 +98,12 @@ div.botoes {
   gap: 2%;
 }
 
-div.botoes button {
+div.botoes button, div.botoes a {
   padding: 0.8rem 1.5rem;
   border-radius: 2rem;
 }
 
-button.cheio {
+a.cheio {
   color: #1c1c1c;
   background: linear-gradient(55deg, #00d9ff 0%, #00b8e6 100%);
 }
