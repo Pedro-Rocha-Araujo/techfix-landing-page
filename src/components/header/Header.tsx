@@ -24,7 +24,7 @@ export default function Header() {
           <p>A TechFix é uma startup de tecnologia que oferece desenvolvimento de sistemas, suporte técnico,  design, UX/UI, testes de software e muito mais. Tudo para você e/ou sua empresa evoluam.</p>
      
           <div className="botoes">
-            <Link className="cheio" target="_blank" href="https://wa.me/5585986557364?text=Oi!%20Quero%20fazer%20um%20or%C3%A7amento...">Faça um orçamento <i className="fa-solid fa-arrow-right"></i></Link>
+            <Link className="cheio" target="_blank" href="https://wa.me/5585986557364?text=Oi!%20Quero%20fazer%20um%20or%C3%A7amento..."> <i className="fa-brands fa-whatsapp"></i> Faça um orçamento </Link>
             <Link href="#servicos" className="vazado">Conheça nossos serviços</Link>
           </div>
         </div>

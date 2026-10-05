@@ -28,7 +28,6 @@ header nav {
 
 header nav ul {
   display: flex;
-  align-items: center;
   gap: 1.5rem;
 }
 
@@ -96,7 +95,7 @@ div.botoes {
   gap: 2%;
 }
 
-header a {
+header a.cheio, header a.vazado {
   padding: 0.8rem 1.5rem;
   border-radius: 2rem;
 }
@@ -115,7 +114,7 @@ a.vazado {
 
 @media screen and (max-width: 980px) {
   header {
-    min-height: 65dvh;
+    min-height: 55dvh;
   }
   header nav ul {
     display: none;

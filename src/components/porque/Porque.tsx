@@ -1,4 +1,5 @@
 import "./porque.css"
+import Link from "next/link"
 import CardPorque from "./CardPorque"
 
 export default function Porque() {
@@ -10,7 +11,7 @@ export default function Porque() {
           <span className="claro chamada">Por que escolher a TechFix?</span>
           <h2><span className="claro">+</span> Que serviços, <br /> parcerias de longo prazo</h2>
           <p>Aqui, você encontra uma equipe dedicada com suporte especializado e soluções que realmente fazer a diferença.</p>
-          <button>Fale com a gente <i className="fa-regular fa-comment"></i></button>
+          <Link className="cheio" target="_blank" href="https://wa.me/5585986557364?text=Olá!%20estou%20precisando%20de%20ajuda..."> <i className="fa-regular fa-comment"></i> Fale com a gente </Link>
         </div>
 
         <div className="cards">
