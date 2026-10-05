@@ -98,7 +98,7 @@ div.botoes {
   gap: 2%;
 }
 
-div.botoes button, div.botoes a {
+div.botoes a {
   padding: 0.8rem 1.5rem;
   border-radius: 2rem;
 }
@@ -108,7 +108,7 @@ a.cheio {
   background: linear-gradient(55deg, #00d9ff 0%, #00b8e6 100%);
 }
 
-button.vazado {
+a.vazado {
   background-color: transparent;
   color: #fff;
   border: 1px solid #00d9ff;

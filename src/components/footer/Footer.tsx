@@ -37,7 +37,15 @@ export default function Footer() {
 
         <hr />
 
-        <Nav />
+        <div className="bottom-footer">
+          <h2>Tech<span className="claro">Fix</span></h2>
+          <Nav />
+          <div className="redes-sociais">
+            <i className="fa-brands fa-whatsapp fa-xl"></i>
+            <i className="fa-brands fa-instagram fa-xl"></i>
+            <i className="fa-regular fa-envelope fa-xl"></i>
+          </div>
+        </div>
 
       </div>
 

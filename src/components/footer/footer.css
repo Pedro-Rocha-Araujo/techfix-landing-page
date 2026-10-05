@@ -23,12 +23,31 @@ footer div.main-footer {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+footer div.bottom-footer {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer div.bottom-footer h2 {
+  width: 100%;
+}
+
+footer div.bottom-footer div.redes-sociais {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 1rem;
+  width: 100%;
+}
+
 footer div.texto {
   width: 100%;
   max-width: 620px;
 }
 
-footer div.redes-sociais {
+footer div.main-footer div.redes-sociais {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -110,7 +129,7 @@ footer nav ul a {
   footer div.conteudo div.main-footer {
     grid-template-columns: 1fr 1fr;
   }
-  footer div.redes-sociais {
+  footer div.main-footer div.redes-sociais {
     display: none;
   }
 }
@@ -122,6 +141,12 @@ footer nav ul a {
   footer div.conteudo div.main-footer {
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+  footer div.bottom-footer {
+    grid-template-columns: 1fr 1fr;
+  }
+  footer nav {
+    display: none;
   }
 }
 
