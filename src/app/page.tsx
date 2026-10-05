@@ -3,6 +3,7 @@ import Servicos from "@/components/servicos/Servicos";
 import Sobre from "@/components/sobre/Sobre";
 import Porque from "@/components/porque/Porque";
 import Depoimentos from "@/components/depoimentos/Depoimentos";
+import Footer from "@/components/footer/Footer";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Sobre />
         <Porque />
         <Depoimentos />
+        <Footer />
       </main>
     </>
   );

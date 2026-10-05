@@ -1,0 +1,39 @@
+footer {
+  color: #fff;
+  background-color: #020B14;
+  display: grid;
+  grid-template-columns: 1fr 95% 1fr;
+  padding: 2rem 0;
+}
+
+footer div.conteudo {
+  grid-column: 2/3;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1330px;
+}
+
+footer div.main-footer {
+  background-color: purple;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer hr {
+  border: none;
+  border-bottom: 0.1px solid #ffffff4d;
+  margin: 1.5rem 0;
+}
+
+footer nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+footer nav ul a {
+  color: #fff;
+  font-weight: 100;
+}

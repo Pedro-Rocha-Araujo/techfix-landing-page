@@ -54,7 +54,7 @@ div.main-header {
 
 div.texto-header {
   width: 100%;
-  max-width: 600px;
+  max-width: 620px;
   display: flex;
   flex-direction: column;
   justify-content: center;
