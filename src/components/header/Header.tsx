@@ -13,7 +13,7 @@ export default function Header() {
           <li><Link href="#sobre">Sobre</Link></li>
           <li><Link href="#contatos">Contatos</Link></li>
         </ul>
-        <button> <i className="fa-regular fa-paper-plane"></i> <p>Fale conosco</p></button>
+        <Link className="cheio" target="_blank" href="https://wa.me/5585986557364?text=Olá!%20estou%20precisando%20de%20ajuda..."> <i className="fa-regular fa-paper-plane"></i> <p>Fale conosco</p></Link>
       </nav>
 
       <div className="main-header">
