@@ -40,6 +40,11 @@ p {
   font-weight: 300;
 }
 
+input, textarea {
+  outline: none;
+  border: none;
+}
+
 span.chamada {
   text-transform: uppercase;
   font-size: clamp(0.8rem, 1vw ,1rem);
@@ -49,7 +54,6 @@ span.chamada {
 span.claro {
   color: #00d9ff;
 }
-
 
 ul, ol {
   list-style: none;

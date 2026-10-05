@@ -17,15 +17,17 @@ export default function Footer() {
 
           <div className="redes-sociais">
             <div className="rede-social">
-              <Link href="/"> <i className="fa-brands fa-instagram"></i> </Link>
+              <i className="fa-brands fa-instagram fa-2xl"></i>
               <label>@techfix.management</label>
             </div>
+
             <div className="rede-social">
-              <Link href="/"> <i className="fa-solid fa-at"></i> </Link>
+              <i className="fa-solid fa-at fa-2xl"></i>
               <label>techfix.management@gmail.com</label>
             </div>
+
             <div className="rede-social">
-              <Link href="/"> <i className="fa-brands fa-whatsapp"></i> </Link>
+              <i className="fa-brands fa-whatsapp fa-2xl"></i>
               <label>(85) 9 86557364</label>
             </div>
           </div>

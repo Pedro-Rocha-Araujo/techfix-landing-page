@@ -1,6 +1,9 @@
 footer {
+  background-image: 
+    linear-gradient(45deg, #020b14e3 30%, #061522e3  90%), 
+    url("/footer-image.jpg")
+  ;
   color: #fff;
-  background-color: #020B14;
   display: grid;
   grid-template-columns: 1fr 95% 1fr;
   padding: 2rem 0;
@@ -13,16 +16,72 @@ footer div.conteudo {
   max-width: 1330px;
 }
 
+footer div.redes-sociais {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+footer div.rede-social {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+footer div.main-footer label {
+  font-size: clamp(0.9rem, 1.2vw, 1.1rem);
+}
+
 footer div.main-footer {
-  background-color: purple;
   display: grid;
   align-items: center;
+  justify-items: center;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer form {
+  background-color: #ffffff07;
+  backdrop-filter: blur(0.2rem);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 1rem 0.5rem;
+  border: 1px solid #00d9ff;
+  border-radius: 0.5rem;
+}
+
+footer form h3 {
+  font-size: clamp(1rem, 1.1vw, 1.1rem);
+  font-weight: 400;
+}
+
+footer form input {
+  color: #fff;
+  border: 1px solid #ffffff94;
+  padding: 0.4rem;
+  background-color: transparent;
+  border-radius: 0.5rem;
+}
+
+footer form textarea {
+  color: #fff;
+  border: 1px solid #ffffff94;
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  background-color: transparent;
+}
+
+footer form button {
+  font-size: clamp(0.9rem, 1vw, 0.9rem);
+  padding: 0.4rem;
+  background-color: #00d9ff;
+  border-radius: 1rem;
 }
 
 footer hr {
   border: none;
-  border-bottom: 0.1px solid #ffffff4d;
+  border-bottom: 0.1px solid #ffffff94;
   margin: 1.5rem 0;
 }
 

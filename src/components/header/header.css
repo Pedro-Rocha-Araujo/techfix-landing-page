@@ -98,7 +98,7 @@ button.vazado {
   header {
     background-image: 
       linear-gradient(45deg, #020b14e3 30%, #061522e3  90%), 
-      url("../../../public/header-image.png")
+      url("/header-image.png")
     ;
     background-position: center;
     background-repeat: no-repeat;
