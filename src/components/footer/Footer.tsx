@@ -1,7 +1,6 @@
-'use client'
-
-import Link from "next/link"
 import "./footer.css"
+import Formulario from "./Formulario"
+import Nav from "./Nav"
 
 export default function Footer() {
   return (
@@ -32,38 +31,13 @@ export default function Footer() {
             </div>
           </div>
 
-          <form>
-            <h3>Preencha suas informações</h3>
-            <input 
-              placeholder="Seu nome"
-              type="text"
-              required
-            />
-            <input 
-              placeholder="Seu E-mail"
-              type="email"
-              required
-            />
-            <textarea 
-              placeholder="Como podemos ajudar?"
-              required
-            />
-            <button>Enviar mensagem <i className="fa-regular fa-paper-plane"></i></button>
-          </form>
+          <Formulario />
+
         </div>
 
         <hr />
 
-        <nav>
-          <ul>
-            <ul>
-              <li><Link href={`/`}>Inicio</Link></li>
-              <li><Link href={`/`}>Serviços</Link></li>
-              <li><Link href={`/`}>Sobre</Link></li>
-              <li><Link href={`/`}>Contatos</Link></li>
-            </ul>
-          </ul>
-        </nav>
+        <Nav />
 
       </div>
 

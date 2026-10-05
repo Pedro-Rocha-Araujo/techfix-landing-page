@@ -28,6 +28,7 @@ export default function Depoimentos() {
             descricao="“Estrega muito além da minha expectativa. Recomendo muito!”" 
           />
         </div>
+
       </div>
     </section>
   )

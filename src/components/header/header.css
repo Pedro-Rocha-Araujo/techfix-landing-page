@@ -53,13 +53,8 @@ header a:hover::after {
   width: 100%;
 }
 
-/* header a:hover {
-  padding-bottom: 0.6rem;
-  border-bottom: 1px solid #00d9ff;
-} */
-
 header nav button {
-  background-color: #00d9ff;
+  background: linear-gradient(100deg, #00d9ff 0%, #00b8e6 100%);
   padding: 0.6rem 1.5rem;
   border-radius: 2rem;
   display: flex;
@@ -109,7 +104,8 @@ div.botoes button {
 }
 
 button.cheio {
-  background-color: #00d9ff;
+  color: #1c1c1c;
+  background: linear-gradient(55deg, #00d9ff 0%, #00b8e6 100%);
 }
 
 button.vazado {
