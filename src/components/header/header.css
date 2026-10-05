@@ -1,6 +1,12 @@
 header {
   color: #fff;
-  background-color: #020B14;
+  background-image: 
+    linear-gradient(45deg, #020b14f1 30%, #061522f1  90%), 
+    url("/footer-image.jpg")
+  ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-bottom: 1px solid #00d9ff;
   min-height: 70dvh;
   display: grid;
@@ -96,14 +102,6 @@ button.vazado {
 
 @media screen and (max-width: 980px) {
   header {
-    background-image: 
-      linear-gradient(45deg, #020b14e9 30%, #061522f1  90%), 
-      url("/footer-image.jpg")
-    ;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    object-fit: cover;
     min-height: 65dvh;
   }
   header nav ul {
