@@ -1,6 +1,6 @@
 footer {
   background-image: 
-    linear-gradient(45deg, #020b14e3 30%, #061522e3  90%), 
+    linear-gradient(45deg, #020b14f1 30%, #061522f1  90%), 
     url("/footer-image.jpg")
   ;
   color: #fff;
@@ -16,6 +16,18 @@ footer div.conteudo {
   max-width: 1330px;
 }
 
+footer div.main-footer {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer div.texto {
+  width: 100%;
+  max-width: 620px;
+}
+
 footer div.redes-sociais {
   display: flex;
   flex-direction: column;
@@ -28,15 +40,12 @@ footer div.rede-social {
   align-items: center;
 }
 
-footer div.main-footer label {
-  font-size: clamp(0.9rem, 1.2vw, 1.1rem);
+footer div.rede-social i {
+  color: #00d9ff;
 }
 
-footer div.main-footer {
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
+footer div.main-footer label {
+  font-size: clamp(0.9rem, 1.2vw, 1.1rem);
 }
 
 footer form {
@@ -95,4 +104,29 @@ footer nav ul {
 footer nav ul a {
   color: #fff;
   font-weight: 100;
+}
+
+@media screen and (max-width: 1280px) {
+  footer div.conteudo div.main-footer {
+    grid-template-columns: 1fr 1fr;
+  }
+  footer div.redes-sociais {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer div.texto {
+    max-width: none;
+  }
+  footer div.conteudo div.main-footer {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  footer nav ul {
+    gap: 1rem;
+  }
 }
