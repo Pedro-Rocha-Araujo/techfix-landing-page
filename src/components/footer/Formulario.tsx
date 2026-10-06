@@ -1,18 +1,27 @@
 'use client'
 
 import { toast } from "react-toastify"
+import { useRouter } from "next/navigation"
 
 export default function Formulario() {
+  const router = useRouter()
 
   async function enviarFormulario(formData: FormData) {
     try {
-      const nome = formData.get("nome")
-      const email = formData.get("email")
       const mensagem = formData.get("mensagem")
-      if(!nome || !email || !mensagem) {
-        toast.error("Erro!")
+
+      const m = mensagem as String
+
+      if(!m.trim()) {
+        toast.error("Digite algo!")
+        return
       }
-      toast.success("OK")
+
+      const tratamentoMensagem = m.trim().replace(/\s/g, "%20")
+
+      router.push(`https://wa.me/5585986557364?text=${tratamentoMensagem}`)
+
+      
     } catch(erro) {
       console.log(erro)
       toast.error("Erro!")
@@ -21,21 +30,9 @@ export default function Formulario() {
 
   return (
     <form action={enviarFormulario}>
-      <h3>Preencha suas informações</h3>
-      <input 
-        placeholder="Seu nome"
-        type="text"
-        name="nome"
-        required
-      />
-      <input 
-        placeholder="Seu E-mail"
-        type="email"
-        name="email"
-        required
-      />
+      <h3>Como podemos ajudar?</h3>
       <textarea 
-        placeholder="Como podemos ajudar?"
+        placeholder="Escreva uma mensagem personalizada."
         name="mensagem"
         required
       />

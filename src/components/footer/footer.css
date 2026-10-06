@@ -87,15 +87,16 @@ footer form h3 {
 footer form input {
   color: #fff;
   border: 1px solid #ffffff94;
-  padding: 0.4rem;
+  padding: 0.5rem;
   background-color: transparent;
   border-radius: 0.5rem;
 }
 
 footer form textarea {
+  min-height: 100px;
   color: #fff;
   border: 1px solid #ffffff94;
-  padding: 0.4rem;
+  padding: 0.5rem;
   border-radius: 0.5rem;
   background-color: transparent;
 }
@@ -127,7 +128,11 @@ footer nav ul a {
 
 @media screen and (max-width: 1280px) {
   footer div.conteudo div.main-footer {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 2fr;
+  }
+  footer div.texto {
+    justify-self: left;
+    padding-right: 1rem;
   }
   footer div.main-footer div.redes-sociais {
     display: none;
@@ -137,6 +142,7 @@ footer nav ul a {
 @media screen and (max-width: 768px) {
   footer div.texto {
     max-width: none;
+    padding: 0;
   }
   footer div.conteudo div.main-footer {
     grid-template-columns: 1fr;
