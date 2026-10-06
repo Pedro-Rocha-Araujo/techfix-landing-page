@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="texto">
             <span className="claro chamada">Entre em contato</span>
             <h2>Vamos transformar sua ideia em solução!</h2>
-            <p>Fale conosco, e nós te responderemos assim que possível.</p>
+            <p>Fale conosco e nós te responderemos assim que possível.</p>
           </div>
 
           <div className="redes-sociais">

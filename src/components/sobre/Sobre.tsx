@@ -19,7 +19,7 @@ export default function Sobre() {
           <div className="texto">
             <span className="claro chamada">Sobre nós</span>
             <h2>Tecnologia, criatividade e compromisso.</h2>
-            <p>Somos uma startup apaixonada por resolver problemas através da tecnologia. Acreditamos no poder da inovação, e no desenvolvimento voltado ás necessidades de cada negócio.</p>
+            <p>Somos uma startup apaixonada por resolver problemas através da tecnologia. Acreditamos no poder da inovação e no desenvolvimento voltado ás necessidades de cada negócio.</p>
           </div>
 
           <div className="cards">

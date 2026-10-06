@@ -15,7 +15,7 @@ export default function Depoimentos() {
           <CardDepoimentos
             imagem={`/foto-usuario.jpg`}
             titulo="Emily Rocha"
-            descricao="“Gostei muito do serviço! A equipe é muito atensiosa e resolveram meu problema bem rápido.”" 
+            descricao="“Gostei muito do serviço! A equipe resolveu meu problema bem rápido.”" 
           />
           <CardDepoimentos
             imagem={`/foto-usuario.jpg`}
