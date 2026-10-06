@@ -115,6 +115,7 @@ a.vazado {
 @media screen and (max-width: 980px) {
   header {
     min-height: 55dvh;
+    padding-bottom: 2rem;
   }
   header nav ul {
     display: none;
