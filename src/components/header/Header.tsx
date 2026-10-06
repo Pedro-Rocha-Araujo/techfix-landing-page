@@ -5,6 +5,7 @@ export default function Header() {
 
   return (
     <header id="inicio">
+      
       <nav>
         <h1>Tech<span className="claro">Fix</span></h1>
         <ul>

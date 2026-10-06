@@ -113,8 +113,8 @@ a.vazado {
 }
 
 @media screen and (max-width: 980px) {
-  header {
-    padding-bottom: 2rem;
+  header div.texto-header {
+    padding: 1rem 0;
   }
   header nav ul {
     display: none;
