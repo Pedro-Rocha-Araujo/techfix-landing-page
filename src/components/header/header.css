@@ -114,7 +114,6 @@ a.vazado {
 
 @media screen and (max-width: 980px) {
   header {
-    min-height: 55dvh;
     padding-bottom: 2rem;
   }
   header nav ul {
@@ -137,12 +136,15 @@ a.vazado {
 
 @media screen and (max-width: 480px) {
   header {
-    min-height: 65dvh;
+    min-height: 50dvh;
     padding-bottom: 1rem;
   }
   div.botoes {
     flex-direction: column;
     gap: 1rem;
+  }
+  div.botoes a {
+    text-align: center;
   }
   header nav a {
     font-size: 1.1rem;

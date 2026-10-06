@@ -35,11 +35,12 @@ h3 {
   font-size: clamp(0.85rem, 4vw, 1rem);
 }
 
-p, a {
-  font-size: clamp(0.85rem, 1.3vw ,1.05rem);
+a {
+  font-size: clamp(0.85rem, 1.5vw ,1rem);
 }
 
 p {
+  font-size: clamp(0.85rem, 3vw ,1rem);
   line-height: 140%;
   word-spacing: 1%;
   font-weight: 300;
